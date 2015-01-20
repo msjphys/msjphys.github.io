@@ -34,6 +34,15 @@ a.nav:link, a.nav:visited {
     text-transform: uppercase;
 }
 
+a:link {
+    color: #9A2500;
+}
+
+/* visited link */
+a:visited {
+    color: #D39C47;
+}
+
 a.nav:hover, a.nav:active {
     background-color: #FFC766;
 }
@@ -57,10 +66,10 @@ a.nav:hover, a.nav:active {
 }
 
 .title{
-  margin-left:20%;
+  margin-left:17%;
   margin-right:auto;
-  text-align:center;
-  width:200px;
+  text-align:left;
+  width:300px;
   background:rgba(255,255,255,0.5);
   font-size:300%;
   color:orange;
